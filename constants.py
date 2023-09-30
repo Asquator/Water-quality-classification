@@ -1,0 +1,1 @@
+DATASET_FNAME = 'waterQuality1.csv'
