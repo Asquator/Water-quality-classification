@@ -4,7 +4,12 @@ from models import *
 from fitter import *
 from dataset import Dataset
 
-models = {'logistic': log_reg, 'SVM Gaussian': svm_gaussian, 'SVM polynomial': svm_poly, 'naive Bayes' : nbg}
+models = {'logistic': log_reg,
+          'SVM Gaussian': svm_gaussian,
+          'SVM polynomial': svm_poly,
+          'naive Bayes' : nbg,
+          'Linear GDA' : lGDA,
+          'Quadratic GDA' : qGDA}
 
 if __name__ == '__main__':
     ds = Dataset()
