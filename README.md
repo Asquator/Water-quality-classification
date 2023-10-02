@@ -7,6 +7,8 @@ Algorithms (ranked best to worst):
 3. Logistic regression
 4. Naive Bayes
 
+- Also added GDA algorithms for comparison -
+
 Possible training output:
 
 Algorithm: logistic
