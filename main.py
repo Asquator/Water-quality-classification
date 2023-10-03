@@ -9,7 +9,9 @@ models = {'logistic': log_reg,
           'SVM polynomial': svm_poly,
           'naive Bayes' : nbg,
           'Linear GDA' : lGDA,
-          'Quadratic GDA' : qGDA}
+          'Quadratic GDA' : qGDA,
+          'Decision tree' : tree
+          }
 
 if __name__ == '__main__':
     ds = Dataset()
